@@ -1,0 +1,252 @@
+/* 全局樣式 */
+body {
+    font-family: 'Roboto', Arial, "Microsoft JhengHei", sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #fff;
+    color: #333;
+    font-size: 1em;
+}
+
+/* 隱藏關鍵詞偽元素 */
+.hidden-keywords::after {
+    content: "復刻錶耐用嗎 高仿錶計時功能 復刻手錶多少錢 香港復刻錶特價 復刻錶用家意見 香港復刻錶市場 復刻錶潮流";
+    position: absolute;
+    opacity: 0; /* 對用戶不可見，但搜索引擎可抓取 */
+    height: 0;
+    overflow: hidden;
+}
+
+/* 次導航欄 */
+.top-bar {
+    background-color: #8fa8bf;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: relative; /* 確保偽元素定位 */
+}
+
+.top-bar p {
+    margin: 0;
+}
+
+/* 主導航欄 */
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #6786a1;
+}
+
+header nav .logo {
+    width: 150px;
+    height: 50px;
+    object-fit: contain;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+header nav ul li a:hover {
+    color: #ddd;
+}
+
+/* 工廠介紹 */
+.factory-intro {
+    padding: 20px;
+    text-align: center;
+    margin: 20px;
+}
+
+.factory-intro h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.factory-intro p {
+    max-width: 800px;
+    margin: 10px auto;
+}
+
+/* 搜索框 */
+.search-bar {
+    padding: 20px;
+    text-align: center;
+}
+
+.search-input {
+    width: 60%;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.search-btn {
+    padding: 10px 20px;
+    background-color: #6786a1;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.search-btn:hover {
+    background-color: #7a95b0;
+}
+
+/* 產品庫 */
+.product-library {
+    padding: 20px;
+    text-align: center;
+}
+
+.product-img {
+    width: 800px;
+    height: 300px;
+    object-fit: cover;
+}
+
+/* 更多信息 */
+.additional-info {
+    padding: 20px;
+    text-align: left;
+    max-width: 900px;
+    margin: 20px auto;
+}
+
+.additional-info h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.additional-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.additional-info ul li {
+    margin-bottom: 10px;
+}
+
+/* 買家秀 */
+.buyer-show {
+    padding: 20px;
+    text-align: center;
+    margin: 20px;
+}
+
+.buyer-show-title {
+    width: 600px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.carousel {
+    position: relative;
+    max-width: 1100px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.carousel-images {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.carousel-img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    margin: 0 10px;
+}
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 1.5em;
+}
+
+.left-arrow {
+    left: 0;
+}
+
+.right-arrow {
+    right: 0;
+}
+
+/* 第10點：額外文字 */
+.extra-info-1 {
+    padding: 20px;
+    text-align: center;
+    background-color: #f0f4f8;
+    margin: 20px;
+}
+
+.extra-info-1 p {
+    margin: 0;
+}
+
+/* 第11點：額外文字 */
+.extra-info-2 {
+    padding: 20px;
+    text-align: center;
+    background-color: #e8ecef;
+    margin: 20px;
+}
+
+.extra-info-2 p {
+    margin: 0;
+}
+
+/* 第12點：聯繫信息與二維碼 */
+.extra-info-3 {
+    padding: 20px;
+    text-align: center;
+    background-color: #f5f7fa;
+    margin: 20px;
+}
+
+.extra-info-3 p {
+    margin: 0 0 20px 0;
+}
+
+.qr-codes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.qr-img {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+
+/* 頁腳 */
+footer {
+    background-color: #6786a1;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}
